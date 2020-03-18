@@ -252,7 +252,7 @@ footer a {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    footer a {
-        color: rgb(141, 255, 65);
+    body {
+        background-color: rgb(119, 0, 255);
     }
   }
