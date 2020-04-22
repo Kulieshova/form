@@ -12,6 +12,7 @@ body {
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	margin: -20px 0 0px;
+	background-image: url('/home/kulieshova/form-oh/oh-bg.png');
 }
 
 h1 {
@@ -44,8 +45,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #f57b51;
+	background-color: #f57b51;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -68,7 +69,7 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-form {
+.form-container > form {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -79,7 +80,7 @@ form {
 	text-align: center;
 }
 
-input {
+.form-container > form > input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
@@ -159,8 +160,8 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: -webkit-linear-gradient(to right, #f57b51, #FF416C);
+	background: linear-gradient(to right, #f57b51, #FF416C);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
